@@ -1,15 +1,6 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
-
-body {
-  font-family: "Raleway", sans-serif;
-}
-
-.status-bar {
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
-}
+@import "components/status-bar.css";
+@import "friend.css";
 
 .Welcome-header {
   display: flex;
@@ -35,6 +26,18 @@ body {
   flex-direction: column;
   margin-top: 70px;
 }
+.Login_form__email {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+}
+.Login_form__password {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+}
 
 .Login_form input {
   margin: 10px 5px;
@@ -44,7 +47,17 @@ body {
 }
 
 .Login_btn {
+  margin: 10px;
+  background-color: yellow;
+  border: none;
 }
-
 .Signup_btn {
+  margin: 10px;
+  border: none;
+}
+.Find_account {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

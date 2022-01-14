@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: #2e323e;
+}
+.Screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Screen-header-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.Screen-header-icons span {
+  margin-left: 25px;
+}
+.Friends-main {
+  display: flex;
+  justify-content: space-between;
+}
+.Friends-main-column {
+  display: flex;
+  align-items: center;
+}
+.Friends-main-column-img {
+  width: 70px;
+  weight: 70px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
