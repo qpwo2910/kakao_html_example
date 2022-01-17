@@ -39,8 +39,9 @@
   display: flex;
   align-items: center;
 }
-.Friends-main-img {
-  width: 80px;
+.Friends-main-column-img {
+  width: 70px;
+  weight: 70px;
   border-radius: 30px;
   margin-left: 20px;
 }
