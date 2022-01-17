@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "components/status-bar.css";
 @import "friend.css";
+@import "chat.css";
 
 .Welcome-header {
   display: flex;
